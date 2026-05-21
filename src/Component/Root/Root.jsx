@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import { Outlet } from 'react-router';
 import SideBar from '../Sidebar/Sidebar';
 import './Root.css'
+import Footer from '../Footer/Footer';
 
 const Root = () => {
     return (
@@ -13,6 +14,8 @@ const Root = () => {
 
                 <Outlet></Outlet>
             </div>
+
+            <Footer></Footer>
             
         </div>
     );
