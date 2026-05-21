@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router';
+import SideBar from '../Sidebar/Sidebar';
 
 const Root = () => {
     return (
         <div>
-            <Header>
+            <Header></Header>
+            <SideBar></SideBar>
 
-            </Header>
 
             <Outlet></Outlet>
             
